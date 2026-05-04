@@ -6,6 +6,7 @@ const port = 3000;
 app.get('/api/test', (req, res) => {
     console.log('Hello world');
     console.log('Hello Git!');
+    console.log('opopopopopopopopopopopopopopopopopopopopop');
     res.status(200).json({
         message: 'Hello, Git! This is a test API.',
         status: 'success',
