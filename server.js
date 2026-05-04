@@ -5,6 +5,7 @@ const port = 3000;
 // API Endpoint สำหรับทดสอบ
 app.get('/api/test', (req, res) => {
    console.log('hi');
+   const sss= 12 + 1;
     res.status(200).json({
         message: 'Hello, Git! This is a test API.',
         status: 'success',
