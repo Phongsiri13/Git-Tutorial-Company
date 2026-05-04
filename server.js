@@ -7,6 +7,8 @@ app.get('/api/test', (req, res) => {
     console.log('Hello world');
     console.log('Hello Git!');
     console.log('opopopopopopopopopopopopopopopopopopopopop');
+    console.log('hi');
+    const sss = 12 + 1;
     res.status(200).json({
         message: 'Hello, Git! This is a test API.',
         status: 'success',
